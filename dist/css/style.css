@@ -406,7 +406,7 @@ body::after {
   gap: 1.625rem
 }
 .footer__link {
-  color: #2b2b2b;
+  color: #2b2b2b!important;
   text-decoration: none;
   transition: opacity .3s
 }
