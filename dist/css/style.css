@@ -364,6 +364,10 @@ body::after {
   padding: 0 30px;
   max-width: 1004px
 }
+.footer__list .menu__link {
+  color: #2b2b2b!important;
+  text-transform: none
+}
 .footer__socials {
   display: flex;
   align-items: center;
@@ -4518,7 +4522,9 @@ input:checked+.cart-1__checkbox-indicator::after {
     max-width: 26.25rem
   }
   .footer__list .menu__link {
-    font-size: 1.3125rem
+    font-size: 1.3125rem;
+    color: #2b2b2b!important;
+    text-transform: none
   }
   .footer__copy {
     grid-column: 1;
@@ -5826,7 +5832,9 @@ input:checked+.cart-1__checkbox-indicator::after {
     gap: 1rem 1.5rem!important
   }
   .footer__list .menu__link {
-    font-size: 1rem!important
+    font-size: 1rem!important;
+    color: #2b2b2b!important;
+    text-transform: none!important
   }
   .footer__bottom {
     display: flex!important;
